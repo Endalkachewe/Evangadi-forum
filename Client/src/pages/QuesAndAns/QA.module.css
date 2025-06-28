@@ -1,0 +1,16 @@
+.container {
+  width: 1000px;
+  /* height: 80px; */
+  margin: 20px auto;
+  padding-top: 50px;
+}
+
+.question_title {
+  border-bottom: 2px solid rgba(95, 95, 95, 0.2);
+}
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

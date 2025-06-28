@@ -1,0 +1,58 @@
+.aboutSection {
+    flex: 1;
+    min-width: 320px;
+    max-width: 500px;
+    padding: 0 10px;
+  }
+  
+  .aboutSection h2 {
+    font-size: 1.8rem;
+    color: blue;
+    margin-top: 20px;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+  }
+  .aboutSection h1 {
+    font-size: 25px;
+    color:  #f7941d;
+    margin-top: 20px;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+  }
+  
+  .aboutSection p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
+  .howItWorksBtn {
+    background-color: #f7941d;
+    color: #fff;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background-color 0.2s ease;
+  }
+  
+  .howItWorksBtn:hover {
+    background-color: #d87a0c;
+  }
+  
+  @media (max-width: 768px) {
+    .aboutSection {
+      text-align: center;
+    }
+  
+    .howItWorksBtn {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  

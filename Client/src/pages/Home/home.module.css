@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  margin: 0px auto;
+  align-items: center;
+  padding-top: 70px;
+}
+.btn {
+  background-color: #6666ff;
+  padding: 10px 40px !important;
+  color: #fff !important;
+  width: auto;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  
+}
+ .title{
+  width: 1000px;
+  margin: 20px auto;
+
+}

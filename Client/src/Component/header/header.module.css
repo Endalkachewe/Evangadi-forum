@@ -1,0 +1,106 @@
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically */
+  padding: 20px 40px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+}
+
+.headerContent {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  object-fit: contain;
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.link {
+  background-color: #4f6bed;
+  color: #fff;
+  text-decoration: none;
+  
+  
+  border: none;
+  border-radius: 6px;
+  padding: 10px 26px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.link:hover {
+  background-color: #3a4fa0;
+
+  color: #fff;
+}
+
+.signInBtn,.signUpBtn ,.logoutBtn {
+  background-color: #4f6bed;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 26px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.signInBtn:hover, .signUpBtn:hover , .logoutBtn:hover{
+  background-color: #3a4fa0;
+}
+.headerContent {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px; /* Adds space between logo and navs */
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  margin-right: 350px; /* Optional: extra spacing if needed */
+}
+
+
+@media (max-width: 768px) {
+  .headerContent {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .navLinks {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .logo {
+    height: 36px;
+  }
+}

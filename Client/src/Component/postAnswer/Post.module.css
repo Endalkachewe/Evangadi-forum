@@ -1,0 +1,22 @@
+.container {
+  width: 1000px;
+  margin: 30px auto;
+}
+.title_wrapper{
+  text-align: center;
+
+}
+.container textarea {
+  width: 100%;
+  height: 120px;
+  padding: 10px;
+  margin-bottom: 30px;
+  
+}
+.link_wrapper {
+  text-decoration: none;
+  color: #fff;
+  background-color:  #005ce6;
+  padding: 12px 20px;
+  border: none;
+}
