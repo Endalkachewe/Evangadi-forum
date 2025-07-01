@@ -31,7 +31,7 @@ function Login() {
     }
 
     try {
-      const response = await axios.post("/user/login", {
+      const response = await axios.post("/users/login", {
         email: emailValue,
         password: passwordValue,
       });

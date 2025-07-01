@@ -17,7 +17,7 @@ function App() {
   const [user, setUser] = useState({});
   async function checkUser() {
     try {
-      const { data } = await axios.get("/user/checkUser", {
+      const { data } = await axios.get("/users/checkUser", {
         headers: {
           Authorization: "Bearer " + token,
         },
@@ -30,10 +30,10 @@ function App() {
     }
   }
 
-  useEffect(() => {
-    checkUser();
+  // useEffect(() => {
+  //   checkUser();
    
-  }, [token]);
+  // }, []);
 
   return (
     <appState.Provider value={{ user, setUser }}>

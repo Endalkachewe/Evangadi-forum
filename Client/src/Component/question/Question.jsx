@@ -10,7 +10,7 @@ function Question() {
     const getQuestions = async () => {
       try {
         await axios
-          .get("/question")
+          .get("/questions")
           .then((res) => {
             setQuestions(res.data);
             console.log(res);
